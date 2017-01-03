@@ -10,7 +10,7 @@ as usual, is an excellent read.
 
 That said, if you want to take this even a step easier, just use this module:
 
-* `composer require-dev swiftotter/disable-template-validation`
+* `composer require swiftotter/disable-template-validation --dev`
 * `php bin/magento module:enable SwiftOtter_DisableTemplateValidation`
 * `php bin/magento setup:upgrade`
 
