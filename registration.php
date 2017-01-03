@@ -10,5 +10,5 @@
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
     'SwiftOtter_DisableTemplateValidation',
-    __DIR__
+    __DIR__ . '/src'
 );
