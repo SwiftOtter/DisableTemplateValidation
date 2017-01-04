@@ -14,7 +14,7 @@ use Magento\Framework\{
 
 class FileValidator
 {
-    const MODE_DEVELOPMENT = 'development';
+    const MODE_DEVELOPMENT = 'developer';
     private $reader;
 
     public function __construct(\Magento\Framework\App\DeploymentConfig\Reader $reader)
