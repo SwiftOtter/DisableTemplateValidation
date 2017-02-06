@@ -24,11 +24,7 @@ class FileValidator
 
     public function afterIsValid($subject, $result)
     {
-        if ($this->isDeveloperMode()) {
-            return true;
-        } else {
-            return $result;
-        }
+        return true;
     }
 
     private function isDeveloperMode()
