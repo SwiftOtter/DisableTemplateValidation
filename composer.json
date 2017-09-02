@@ -3,7 +3,6 @@
   "description": "N/A",
   "require": {
     "php": "~7.0.0",
-    "magento/framework": "100.1.*",
     "lib-libxml": "*"
   },
   "type": "magento2-module",
